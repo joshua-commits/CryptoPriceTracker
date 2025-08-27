@@ -6,7 +6,7 @@
 - [ Features](#features)
 - [ Setup](#setup)
 - [ What I Learned](#what-i-learned)
-- [ Future Improvements](#future-improvements)
+- [ Futher Improvements](#futher-improvements)
 
 
 ## Brief summary
