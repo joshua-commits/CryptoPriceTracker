@@ -5,7 +5,6 @@
 - [🛠️ Tech Stack](#️-tech-stack)
 - [⚙️ Features](#️-features)
 - [⚙️Setup](#setup)
-- [🚀 Development Process](#-development-process)
 - [🧠 What I Learned](#-what-i-learned)
 - [🔭 Future Improvements](#-future-improvements)
 
@@ -83,14 +82,6 @@ deploy.sh will:
 
 #### Call ingestion via API:
 `curl -X POST "http://localhost:8000/prices/ingest" -H "Content-Type: application/json" -d '["bitcoin","ethereum"]'`
-
-
-#### Run tests:
-`python -m pytest -q`
-
-
-## 🚀 Development Process
-This repository is organised to show a concise development workflow. The sections below are short summaries of the phases and the practical commands to get started.
 
 
 ### Testing
