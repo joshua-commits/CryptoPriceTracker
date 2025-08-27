@@ -1,12 +1,12 @@
 # Crypto Price Tracker
 
 ## Table of Content
-- [📝 Brief Summary](#-brief-summary)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [⚙️ Features](#️-features)
-- [⚙️ Setup](#-setup)
-- [🧠 What I Learned](#-what-i-learned)
-- [🔭 Future Improvements](#-future-improvements)
+- [ Brief Summary](#brief-summary)
+- [ Tech Stack](#tech-stack)
+- [ Features](#features)
+- [ Setup](#setup)
+- [ What I Learned](#what-i-learned)
+- [ Future Improvements](#future-improvements)
 
 
 ## Brief summary
@@ -26,7 +26,7 @@
 
 
 
-## ⚙️ Features
+## Features
 - Typed REST API
   - `POST /prices` create a single price record
   - `POST /prices/bulk` idempotent bulk upsert
@@ -51,7 +51,7 @@
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 Clone the repo, create .env from the template and then:
 
