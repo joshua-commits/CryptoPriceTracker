@@ -113,7 +113,7 @@ Two recommended approaches:
 
 Run the ingestion module directly from a scheduler:
 
-python -m app.ingestion.fetch in ingest.bat for Windows Task Scheduler or a cron job on Unix.
+`python -m app.ingestion.fetch` in **ingest.bat** for Windows Task Scheduler or a cron job on Unix.
 
 Trigger the /prices/ingest endpoint with curl or PowerShell from the scheduler.
 
