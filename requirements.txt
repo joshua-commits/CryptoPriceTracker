@@ -1,0 +1,9 @@
+pytest
+pytest-cov
+httpx
+fastapi[all]
+sqlalchemy
+psycopg[binary]
+alembic
+pydantic
+uvicorn

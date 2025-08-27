@@ -9,6 +9,6 @@ class Price(Base):
     symbol = Column(String, index=True, nullable=False)
     currency = Column(String, default="USD")
     price = Column(Numeric(18,8), nullable=False)
-    fetched_at = Column(DateTime,  nullable=False, server_default=text("now()"))
+    fetched_at = Column(DateTime,  nullable=False, server_default=text("CURRENT_TIMESTAMP"))
     __table_args__ = (UniqueConstraint("symbol", "currency", "fetched_at"),)
 

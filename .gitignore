@@ -1,4 +1,8 @@
 .env
-.bat
-.log
-.db
+ingest.bat
+ingest.log
+.venv
+.pytest_cache
+
+.coverage
+test.db

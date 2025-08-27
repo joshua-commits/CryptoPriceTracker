@@ -1,3 +1,4 @@
+from decimal import Decimal
 from pydantic import BaseModel, field_validator
 from datetime import  datetime
 
@@ -6,6 +7,10 @@ class PriceBase(BaseModel):
     symbol: str
     currency: str = "USD"
     price: float
+
+    model_config = {
+        "json_encoders": {Decimal: lambda v: float(v)}
+    }
     
 
     @field_validator("symbol")
