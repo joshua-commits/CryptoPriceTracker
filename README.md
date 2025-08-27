@@ -4,7 +4,7 @@
 - [📝 Brief Summary](#-brief-summary)
 - [🛠️ Tech Stack](#️-tech-stack)
 - [⚙️ Features](#️-features)
-- [⚙️Setup](#setup)
+- [⚙️ Setup](#-setup)
 - [🧠 What I Learned](#-what-i-learned)
 - [🔭 Future Improvements](#-future-improvements)
 
