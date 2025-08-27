@@ -1,9 +1,10 @@
-pytest
-pytest-cov
-httpx
-fastapi[all]
-sqlalchemy
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0
 psycopg[binary]
-alembic
 pydantic
-uvicorn
+alembic
+pycoingecko
+pytest
+httpx
+python-dotenv
