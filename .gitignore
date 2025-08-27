@@ -1,4 +1,4 @@
 .env
-ingest.bat
-ingest.log
-test.db
+.bat
+.log
+.db
