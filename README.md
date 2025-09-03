@@ -19,7 +19,7 @@
 - **ORM / Migrations:** SQLAlchemy 2.x, Alembic  
 - **Database:** PostgreSQL (SQLite used for tests)  
 - **Ingestion:** CoinGecko API (pycoingecko)  
-- **Scheduling:** OS scheduler (Windows Task Scheduler).
+- **Scheduling:** OS scheduler (Windows Task Scheduler)
 - **Visualisation:** Power BI Desktop  
 - **Testing and quality:** pytest 
 - **Dev tooling:** Docker
