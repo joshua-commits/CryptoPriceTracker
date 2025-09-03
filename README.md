@@ -18,11 +18,11 @@
 - **API:** FastAPI, Pydantic  
 - **ORM / Migrations:** SQLAlchemy 2.x, Alembic  
 - **Database:** PostgreSQL (SQLite used for tests)  
-- **Ingestion:** CoinGecko API (pycoingecko or httpx)  
-- **Scheduling:** OS scheduler (Windows Task Scheduler or cron). Optional Airflow for orchestration.  
+- **Ingestion:** CoinGecko API (pycoingecko)  
+- **Scheduling:** OS scheduler (Windows Task Scheduler).
 - **Visualisation:** Power BI Desktop  
-- **Testing and quality:** pytest, pre-commit (black, ruff/isort)  
-- **Dev tooling:** Docker optional, python-dotenv for environment variables
+- **Testing and quality:** pytest 
+- **Dev tooling:** Docker
 
 
 
